@@ -219,7 +219,12 @@ a{
         padding: 0 2rem;
         flex-wrap: wrap;
     } 
-
+    .image-course{
+        max-width: 350px;
+    }
+    .p-course{
+        text-align: center;
+    }
 }
 
 /* end of main */
@@ -254,7 +259,6 @@ a{
     filter: blur(3px);
     border-radius: 10px;
 }
-
 .img-course>img:hover{
     filter: blur(0);
     transition: all 0.3s ease;
