@@ -225,6 +225,10 @@ a{
     .p-course{
         text-align: center;
     }
+    .logo{
+        position: relative;
+        right: 3.5rem;
+    }
 }
 
 /* end of main */
