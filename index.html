@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WhoKheng</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/0822a4a647.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Welcome -->
+    <header class="header">
+      <section class="section-head">
+        <article class="header-article container-width">
+          <nav class="logo">
+            <img src="images/logo (2).webp" alt="logo" />
+          </nav>
+          <span class="icon-bar"
+            ><i class="fa-solid fa-bars" style="color: #00ffaa"></i
+          ></span>
+          <ul class="list list-style">
+            <li class="list-link li-home"><a href="">HOME</a></li>
+            <li class="list-link li-Course">
+              <a href="pages/aboutcourse.html">Courses</a>
+            </li>
+            <li class="list-link li-Server">
+              <a href="pages/aboutserver.html">Server</a>
+            </li>
+            <li class="list-link li-About">
+              <a href="pages/aboutabout.html">About</a>
+            </li>
+          </ul>
+        </article>
+      </section>
+    </header>
+    <!-- end of welcome -->
+    <script>
+      const menuToggler = document.querySelector(".icon-bar");
+      const navLists = document.querySelector(".list");
+      menuToggler.addEventListener("click", () => {
+        navLists.classList.toggle("show");
+      });
+    </script>
+
+    <!-- main -->
+    <main class="main">
+      <section class="main-section grid-1x2 container-width">
+        <article class="head-main">
+          <h1>Welcome to my personal pages lets to check it out!</h1>
+          <h2 class="h2-anime">I'm WhoKheng...</h2>
+        </article>
+        <div class="images-main">
+          <img src="images/IMG_1965.JPG" alt="profile" />
+        </div>
+      </section>
+    </main>
+
+    <!-- end of main home -->
+
+    <!--start  Course -->
+    <section class="course">
+      <h2 class="course-head">My Course</h2>
+      <article class="grid-1x2 container-width">
+        <div class="image-course">
+          <img src="/images/12063795_4884784.svg" alt="imgCourse" />
+        </div>
+        <p class="p-course">
+          HTML (Hypertext Markup Language) is used to structure and define the
+          content of a webpage, while CSS (Cascading Style Sheets) is employed
+          to style and layout the content, enhancing the visual presentation and
+          user experience.
+        </p>
+      </article>
+      <article class="grid-1x3 container-width">
+        <a href="pages/aboutcourse.html" class="Courses">
+          <div class="img-course"><img src="/images/HTML CSS.jpg" alt=""></div>
+        </a>
+        <a href="pages/aboutcourse.html" class="Courses">
+          <div class="img-course"><img src="/images/java-script.jpg" alt=""></div>
+        </a>
+        <a href="pages/aboutcourse.html" class="Courses">
+          <div class="img-course"><img src="/images/nodejs.webp" alt=""></div>
+        </a>
+        <div class="Courses">
+          <div class="img-course"><img src="/images/php.jpg" alt=""></div>
+        </div>
+        <div class="Courses">
+          <div class="img-course"><img src="/images/UX-vs-UI-Design-1024x819-1.webp" alt=""></div>
+        </div>
+      </article>
+    </section>
+  </body>
+</html>
